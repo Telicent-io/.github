@@ -1,0 +1,32 @@
+name: Design Task
+description: Specific design activity prior to any implementation. This could include discussions, research, wireframes, technical design/architectural tasks
+title: ""
+labels: ""
+projects: ["Telicent-io/36"]
+assignees: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+       Add 'Technical Design' or 'UX/UI' labels as appropriate.
+  - type: textarea
+    id: Background
+    attributes:
+      label: background
+      description: A brief summary/background of the problem or requirement
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task
+      description: What design activity do we need to do in this ticket? 
+      value: Note: Try to keep issues independent and bitesize to 1 or little use cases possible. I.e if you want to redesign an entire feature - break it up into tickets that cover specific journeys to be designed
+    validations:
+      required: true
+  - type: textarea
+    id: Outcome
+    attributes:
+      label: Outcome
+      description: What is the outcome/deliverable of this ticket?
+      value: This could be wireframes, mockups, prototypes or architectural diagrams
