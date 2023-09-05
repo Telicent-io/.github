@@ -1,9 +1,7 @@
 name: Design Task
 description: Specific design activity prior to any implementation. This could include discussions, research, wireframes, technical design/architectural tasks
-title: ""
-labels: ""
+title: "[brief summary of design task]"
 projects: ["Telicent-io/36"]
-assignees: ""
 body:
   - type: markdown
     attributes:
