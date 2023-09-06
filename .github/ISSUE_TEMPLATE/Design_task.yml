@@ -10,7 +10,7 @@ body:
   - type: textarea
     id: Background
     attributes:
-      label: background
+      label: Background
       description: A brief summary/background of the problem or requirement
     validations:
       required: true
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Task
       description: What design activity do we need to do in this ticket? 
-      value: Try to keep issues independent and bitesize to 1 or little use cases possible. I.e if you want to redesign an entire feature - break it up into tickets that cover specific journeys to be designed
+      value: "[Try to keep issues independent and bitesize to 1 or little use cases possible. I.e if you want to redesign an entire feature - break it up into tickets that cover specific journeys to be designed]"
     validations:
       required: true
   - type: textarea
@@ -27,4 +27,6 @@ body:
     attributes:
       label: Outcome
       description: What is the outcome/deliverable of this ticket?
-      value: This could be wireframes, mockups, prototypes or architectural diagrams
+      value: "[This could be wireframes, mockups, prototypes or architectural diagrams]"
+    validations:
+      required: true
