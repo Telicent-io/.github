@@ -1,0 +1,45 @@
+name: Spike
+description: Investigate something prior to implementation or design
+title: "[Spike]:"
+projects: ["Telicent-io/36"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+       Spikes are time boxed activities to investigate possible solutions, research approaches or gather information about a particular feature or idea
+  - type: textarea
+    id: Background
+    attributes:
+      label: Background
+      description: Include some background context what is the problem we're trying to solve? What are we looking into? Why?
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task
+      description: What tasks do we need to conduct under this spike? 
+      value: "This spike is to investigate ..../ This spike is to consider how we implement...."
+    validations:
+      required: true
+  - type: textarea
+    id: AC
+    attributes:
+      label: Acceptance Criteria
+      description: What is the outcome from this spike activity? Comments in the ticket, presentations etc.
+(Any follow on design and implementation as a result of this spike should be raised as new Task or Design tickets)"
+ validations:
+      required: true
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Links? References?
+      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
+
+
+
+
+

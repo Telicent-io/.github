@@ -1,0 +1,44 @@
+name: Task
+description: Dev/Implementation tickets
+projects: ["Telicent-io/36"]
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      Description: Provided some context to the task, ref any related tickets here if it helps build the story
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Task
+      description: |
+	What is the task/requirement? Try not to solutionise here, just state the requirement. If 	there's a design to follow, make that clear here.
+      value: 
+	"As a.... 
+	 I want.... 
+	 So that...."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: Written in Given, When, Then statement(s) where possible so it's easily testable - some tickets won't require this, in which case bullet points are fine. Remember to include unhappy scenarios too.
+	value: |
+	Given.... 
+	When...
+	Then...
+      validations:
+	required: true
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Links? References? Screenshots?
+      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
+- type: markdown
+    attributes:
+      value: |
+      Remember to link task tickets to feature tickets where appropriate!
