@@ -1,13 +1,13 @@
 name: Documentation
 description: Create or update documentation (e.g README, Wiki, Guides, etc)
 title: "[Documentation:] "
-labels: "documentation"
+labels: ["documentation"]
 projects: ["Telicent-io/36"]
 body:
   - type: textarea
     attributes:
       label: Documentation to create/update
-      Description: Short summary of the documentation that should be added or updated (include links where appropriate) 
+      description: Short summary of the documentation that should be added or updated (include links where appropriate)
     validations:
       required: true
   - type: textarea
