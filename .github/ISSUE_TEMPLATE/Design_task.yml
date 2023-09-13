@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-       Add 'Technical Design' or 'UX/UI' labels as appropriate.
+        Add 'Technical Design' or 'UX/UI' labels as appropriate.
   - type: textarea
     id: Background
     attributes:
@@ -18,7 +18,7 @@ body:
     id: task
     attributes:
       label: Task
-      description: What design activity do we need to do in this ticket? 
+      description: What design activity do we need to do in this ticket?
       value: Try to keep issues independent and bitesize to 1 or little use cases possible. I.e if you want to redesign an entire feature - break it up into tickets that cover specific journeys to be designed
     validations:
       required: true

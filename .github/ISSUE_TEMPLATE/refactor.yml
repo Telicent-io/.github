@@ -1,15 +1,13 @@
 name: Refactor
 description: Something that needs improving while not changing functionality
 title: "[Refactor]: "
-labels: "refactor"
+labels: ["refactor"]
 projects: ["Telicent-io/36"]
 body:
- - type: markdown
+  - type: markdown
     attributes:
       value: |
-	What code needs to be improved?
-    validations:
-      required: true
+        What code needs to be improved?
   - type: textarea
     attributes:
       label: Task
@@ -21,12 +19,11 @@ body:
       description: What criteria needs to be met for this ticket to be considered done?
     validations:
       required: false
-- type: textarea
-  attributes:
-    label: Anything else?
-    description: |
-      Links? References?
-      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
-  validations:
-    required: false
-
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References?
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
