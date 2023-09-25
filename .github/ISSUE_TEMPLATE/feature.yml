@@ -1,16 +1,26 @@
-name: Feature
-description: Epic-level theme/capability/feature to introduce
-title: "[Feature:] "
+name: Feature/Epic
+description: A large body of work/Feature with linked implementation tasks
+title: "[Feature/Epic]: "
 projects: ["Telicent-io/36"]
 body:
   - type: markdown
     attributes:
       value: |
-        These tickets are not actionable tickets. Tasks should be raised and linked to this issue-type (using task-list) when this feature is prioritised.
+        These tickets are not actionable tickets. Tasks should be raised in the 'Issues' section and linked to this issue-type (using task-list) when this feature is prioritised.
   - type: textarea
     attributes:
       label: Summary
       description: Provide a high level description of the suggested feature
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Issues
+      description: Break down the tasks to implement this epic/feature. You can add existing issues or convert these into issues later. 
+      value: |
+        - [ ] Task 1 
+        - [ ] Task 2
+        ...
     validations:
       required: true
   - type: textarea
